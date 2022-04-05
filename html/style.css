@@ -1,0 +1,69 @@
+body {
+    color: red;
+}
+
+p {
+    color: yellow;
+}
+
+#title-1 {
+    color: purple;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+[id] {
+    background-color: aqua;
+}
+
+[href*="yahoo"] {
+    font-size: 100px;
+}
+
+[href^="title"] {
+    font-size: 100px;
+}
+
+[class*="title"] {
+    font-size: 100px;
+}
+
+[href$=".com"] {
+    font-size: 100px;
+}
+
+[class*="title"] {
+    font-size: 150px;
+}
+
+[href*="127"] {
+    font-size: 50px;
+}
+
+[href="http"] {
+    font-size: 50px;
+}
+
+a,
+p,
+h1 {
+    text-align: center;
+}
+
+main>p {
+    text-align: end;
+}
+
+h1+p {
+    background-color: violet;
+}
+
+h1~p {
+    background-color: slateblue;
+}
+
+body>main {
+    background-color: red;
+}

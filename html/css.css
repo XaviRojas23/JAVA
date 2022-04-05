@@ -1,0 +1,24 @@
+input:out-of-range {
+    background-color: red;
+}
+
+input:in-range {
+    background-color: greenyellow;
+}
+
+input:out-of-range:hover {
+    transition: 1s;
+    transform: scale(5);
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.centro {
+    text-align: center;
+}
+
+.derecha {
+    text-align: right;
+}
