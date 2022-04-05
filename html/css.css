@@ -22,3 +22,39 @@ input:out-of-range:hover {
 .derecha {
     text-align: right;
 }
+
+div {
+    margin-top: 20rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.borde {
+    border: 5px solid #000;
+    border-radius: 20px;
+}
+
+th,
+td {
+    font-size: 50px;
+    padding: 30px;
+    border: 2px solid #000;
+}
+
+th:hover,
+td:hover {
+    transition: 1.5s ease;
+    font-size: 70px;
+    padding: 30px;
+    border: 2px solid #000;
+    color: yellow;
+}
+
+th {
+    color: red;
+}
+
+td {
+    color: purple;
+}
