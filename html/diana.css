@@ -1,3 +1,10 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
 .diana {
     border-radius: 100%;
     margin: auto;
