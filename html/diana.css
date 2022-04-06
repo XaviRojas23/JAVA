@@ -1,0 +1,71 @@
+.diana {
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r {
+    border: 20px solid rgb(255, 0, 0);
+}
+
+.b {
+    border: 20px solid black;
+}
+
+.diana-0 {
+    width: 230px;
+    height: 230px;
+    z-index: 10;
+}
+
+.diana-1 {
+    width: 200px;
+    height: 200px;
+    z-index: 20;
+}
+
+.diana-2 {
+    width: 170px;
+    height: 170px;
+    z-index: 30;
+}
+
+.diana-3 {
+    width: 140px;
+    height: 140px;
+    z-index: 40;
+}
+
+.diana-4 {
+    width: 110px;
+    height: 110px;
+    z-index: 50;
+}
+
+.diana-5 {
+    width: 90px;
+    height: 90px;
+    z-index: 60;
+}
+
+.diana-6 {
+    width: 60px;
+    height: 60px;
+    z-index: 70;
+}
+
+.diana-7 {
+    width: 30px;
+    height: 30px;
+    z-index: 80;
+}
+
+.diana-8 {
+    width: 0px;
+    height: 0px;
+    z-index: 80;
+    border-radius: 100%;
+}
