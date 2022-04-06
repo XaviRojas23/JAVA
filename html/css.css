@@ -34,6 +34,7 @@ div {
     border: 5px solid #000;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-bottom: 50px;
 }
 
 th,
@@ -58,4 +59,21 @@ th {
 
 td {
     color: purple;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadrado:hover {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 3s;
 }
